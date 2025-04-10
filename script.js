@@ -1,5 +1,5 @@
-const fbProfileLink = "fb://profile/61572952346929"; // Facebook mobile app deep link format
-const webLink = "https://web.facebook.com/profile.php?id=61572952346929"; // Fallback web URL
+const fbAppLink = "fb://facewebmodal/f?href=https://web.facebook.com/share/p/12C5cSSfRv8/"; // Opens share page in Facebook app
+const webFallbackLink = "https://web.facebook.com/share/p/12C5cSSfRv8/"; // Opens in browser
 
 // Function to handle opening the link
 function openFacebookLink() {

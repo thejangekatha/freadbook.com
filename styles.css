@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F2F5;
+    /* Facebook's light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.like-button.liked {
+    color: #1877F2;
+    /* Facebook blue */
+    font-weight: bold;
+}
+
+.like-button.liked i {
+    color: #1877F2;
+}
+
+.header {
+    background-color: #4267B2;
+    /* Facebook blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.post {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Subtle shadow like Facebook posts */
+}
+
+.post-content p {
+    /* font-size: 24px !important; */
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* Circular profile picture */
+    margin-right: 10px;
+}
+
+.post-info h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #1C1E21;
+    /* Facebook's dark text color */
+}
+
+.post-info p {
+    margin: 0;
+    font-size: 12px;
+    color: #606770;
+    /* Lighter gray for secondary text */
+}
+
+.post-content p {
+    font-size: 14px;
+    color: #1C1E21;
+    margin: 10px 0;
+}
+
+.post-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Rounded corners for a polished look */
+}
+
+.post-interactions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.post-interactions button {
+    background: none;
+    border: none;
+    color: #606770;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.2s ease;
+    /* Smooth hover transition */
+}
+
+.post-interactions button i {
+    margin-right: 5px;
+}
+
+.post-interactions button:hover {
+    color: #4267B2;
+    /* Blue on hover, like Facebook */
+}
+
+.like-button.liked {
+    color: #4267B2;
+    /* Blue when liked */
+}
+
+.footer {
+    text-align: center;
+    margin: 20px;
+}
+
+.footer a {
+    color: #4267B2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    /* Underline on hover for link */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .post {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .post-interactions button {
+        font-size: 12px;
+        /* Slightly smaller buttons on mobile */
+    }
+}

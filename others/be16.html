@@ -157,18 +157,26 @@
             <img src="../images/img.jpg" alt="Sample Image">
         </div>
 
-        <div onclick="goToFacebookProfile('web.facebook.com/share/p/1GBDjKMdRi/')" class="post-interactions">
-            <button class="like-button"><i class="fas fa-thumbs-up"></i> Like</button>
-            <button><i class="fas fa-comment"></i> Comment</button>
-            <button><i class="fas fa-share"></i> Share</button>
+    
+         <div onclick="goToFacebookProfile('web.facebook.com/share/p/1GBDjKMdRi/')" class="post-interactions">
+            <button class="new-like-button">
+                Go to Original Post And Like
         </div>
+        <style>
+            .new-like-button {
+                background-color: rgb(1, 69, 254) !important;
+                height: 30px;
+                border-radius: 6px;
+                color: white !important;
+                font-weight: 600;
+
+            }
+        </style>
 
     </div>
 
     <!-- Footer with Facebook Link -->
-    <div class="footer">
-        <a href="https://web.facebook.com/profile.php?id=61572952346929" target="_blank">Visit Facebook Profile</a>
-    </div>
+  
 
     <!-- Custom JavaScript -->
     <script src="../script.js"></script>

@@ -19,6 +19,15 @@ body {
 visibility: hidden;
 }
 
+.new-like-button {
+                background-color: rgb(1, 69, 254) !important;
+                height: 30px;
+                border-radius: 6px;
+                color: white !important;
+                font-weight: 600;
+
+}
+
 .homeBody {
                 margin-top: 20px;
             }
